@@ -1,17 +1,25 @@
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 
-.input-icons {
+.input-icons{
+    position: relative;
+}
+
+.input-icons > input {
     display: block;
     width: 501px;
     height: 35px;
     padding: 0.375rem 0.75rem;
+    padding-left: 44px;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 2.25rem;
+    
 }
 
-.input-icons:hover {
+
+
+.input-icons input:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
   }
 nav{
@@ -51,6 +59,12 @@ main{
     align-items: center;
     flex-direction: column; 
     top: -90px;;
+}
+
+img#input_img{
+    position: absolute;
+    top: 5px;
+    left: 11px;
 }
 
 
